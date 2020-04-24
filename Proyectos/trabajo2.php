@@ -10,5 +10,6 @@
       Autos Vendidos:<input type="text" name="vendidos"><br>
       Precio total de auntos vendidos:<input type="text" name="precio"><br>
       <input type="submit" value="Calcular">
+    </FORM>
   </body>
 </html>
