@@ -17,8 +17,12 @@ h1{
 }
 table{
   margin-top: 10px;
+  text-align: center;
 }
-th{
+.definitiva{
   font-size: 30px;
   font-family: Black;
+}
+.btn1{
+margin-left: 650px;
 }

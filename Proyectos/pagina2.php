@@ -19,12 +19,12 @@
      <table class="table" border="2">
        <thead class="thead-dark">
          <tr>
-           <th><h1>Definitiva:</h1></th>
+           <th class="definitiva"><h1>Definitiva:</h1></th>
          </tr>
        </thead>
        <tbody class="thead-light">
          <tr>
-           <th>
+           <th class="definitiva">
              <?php echo ($resultado)/5 ?>
           </th>
          </tr>
