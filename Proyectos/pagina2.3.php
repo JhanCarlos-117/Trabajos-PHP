@@ -43,5 +43,6 @@
          <th><?php echo $pediatria1."<br>";  ?></th>
        </tr>
      </table>
+     <a class="btn1" href="trabajo4.php"><input class="btn-primary" type="submit" value="Regresar"></a>
   </body>
 </html>

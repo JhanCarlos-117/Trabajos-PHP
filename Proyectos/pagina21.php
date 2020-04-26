@@ -57,5 +57,5 @@
           } ?></th>
     </tr>
   </table>
-  <a class="btn2" href="Trabajo3.php"><input class="btn-primary" type="submit" value="Regresar"></a>
+  <a class="btn1" href="Trabajo3.php"><input class="btn-primary" type="submit" value="Regresar"></a>
 </html>
