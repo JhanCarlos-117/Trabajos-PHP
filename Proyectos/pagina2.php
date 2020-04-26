@@ -14,7 +14,7 @@
      $examen = $_POST ['examen'];
      $trabajo = $_POST ['trabajo'];
 
-     $resultado =   ($nota1 + $nota2 + $nota3)*35/100 + ($examen)*35/100 + ($trabajo)* 30/100;
+     $resultado =   ($nota1 + $nota2 + $nota3)/3*35/100 + ($examen)*35/100 + ($trabajo)* 30/100;
      ?>
      <table class="table" border="2">
        <thead class="thead-dark">
@@ -25,7 +25,7 @@
        <tbody class="thead-light">
          <tr>
            <th class="definitiva">
-             <?php echo ($resultado)/5 ?>
+             <?php echo ($resultado) ?>
           </th>
          </tr>
        </tbody>
