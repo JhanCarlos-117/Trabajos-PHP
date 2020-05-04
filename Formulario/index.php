@@ -2,8 +2,11 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/flexslider.css">
     <title>REGISTRO</title>
   </head>
   <body>
@@ -18,5 +21,11 @@
       <input type="radio" name="otro">Otro <br>
       <label for="">Nacionalidad:</label><input type="text" name="nacionalidad"><br>
       <button class="btn-primary" type="button" name="button">Enviar</button>
+
+      <script src="Js/main.js"  type="text/javascript"></script>
+      <script src="Js/jquery-3.5.0.js"  type="text/javascript"></script>
+      <script src="Js/jquery.flexslider.js" type="text/javascript">
+
+      </script>
   </body>
 </html>
