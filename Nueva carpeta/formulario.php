@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="tilos.css">
     <link rel="stylesheet" href="font-awesome.css">
-        <link rel="stylesheet" href="flexslider.css">
+    <link rel="stylesheet" href="flexslider.css">
     <title>REGISTRO</title>
   </head>
   <body>

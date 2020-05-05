@@ -84,10 +84,11 @@ body{
 	z-index: 3;
 	list-style: none;
 }
-
-/* RESPONSIVE ========== */
-
 @media screen and (max-width: 770px){
+  h1{
+    font-size: 20px;
+    text-align: center;   
+  }
 	.flex-direction-nav a{
 		opacity: 1;
 	}
@@ -100,21 +101,15 @@ body{
 		right: 15px;
 	}
 
-	.caption h2{
-		font-size: 50px;
-	}
-
 }
 
 @media screen and (max-width: 600px){
-	.caption h2{
-		font-size: 40px;
-	}
-
 	.flexslider{
 		width: 100%;
 		border-radius: 0px;
 		border: none;
+    margin-left: 5px;
+    margin-top: 40px;
 	}
 
 	.slides li{
@@ -135,7 +130,4 @@ body{
 		transform: translateX(-90px);
 	}
 
-	#page-title{
-		font-size: 40px;
-	}
 }
