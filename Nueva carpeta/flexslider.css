@@ -1,4 +1,4 @@
-//**@font-face {
+@font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
@@ -23,13 +23,18 @@ body{
 }
 
 .flexslider{
-	width: 45%;
+	width: 60%;
 	max-width: 1000px;
 	margin: 50px auto;
+  margin-left: 500px;
+  margin-top: -360px;
 
-	border: 5px solid #fff;
+	border: 3px solid #fff;
 	border-radius: 8px;
 	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70);
+
+	display: flex;
+	flex-direction: column;
 	position: relative;
 }
 
@@ -44,12 +49,6 @@ body{
 }
 
 .flex-control-nav.flex-control-paging{
-	width: 120px;
-	padding: 20px 0px;
-	background: #1A89DF;
-	border: 2px solid rgba(255,255,255,.3);
-	border-radius: 10px;
-	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.80);
 
 	display: flex;
 	justify-content: center;
@@ -57,10 +56,9 @@ body{
 	align-self: center;
 
 	list-style: none;
-
-	position: absolute;
-	bottom: -29px;
+  bottom: -29px;
 	z-index: 3;
+  margin-top: -55px;
 }
 
 .flex-control-nav li{
@@ -79,7 +77,7 @@ body{
 }
 
 .flex-control-nav li a.flex-active{
-	background: #353535;
+	background: #640be4;
 }
 
 .flex-direction-nav{
@@ -87,62 +85,32 @@ body{
 	list-style: none;
 }
 
-.flex-direction-nav a{
-	width: 60px;
-	height: 60px;
-	background: #1A89DF;
-	border: 2px solid rgba(255,255,255,.3);
-	border-radius: 5px;
-	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.80);
+/* RESPONSIVE ========== */
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+@media screen and (max-width: 770px){
+	.flex-direction-nav a{
+		opacity: 1;
+	}
 
-	text-decoration: none;
-	opacity: 0;
+	.flex-direction-nav .flex-prev{
+		left: 15px;
+	}
 
-	position: absolute;
-	top: 50%;
-	margin-top: -30px;
+	.flex-direction-nav .flex-next{
+		right: 15px;
+	}
 
-	transition: all 0.3s ease-in-out;
-}
+	.caption h2{
+		font-size: 50px;
+	}
 
-.flex-direction-nav a::before{
-	content: "\f104";
-    font: normal normal normal 14px/1 FontAwesome;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-
-    font-size: 50px;
-    color: #fff;
-}
-
-.flex-direction-nav a.flex-next::before{
-	content: "\f105";
-}
-
-.flex-direction-nav .flex-prev{
-	left: 0px;
-}
-
-.flex-direction-nav .flex-next{
-	right: 0px;
-}
-
-.flexslider:hover .flex-direction-nav .flex-prev{
-	opacity: 1;
-	left: 15px;
-}
-
-.flexslider:hover .flex-direction-nav .flex-next{
-	opacity: 1;
-	right: 15px;
 }
 
 @media screen and (max-width: 600px){
+	.caption h2{
+		font-size: 40px;
+	}
+
 	.flexslider{
 		width: 100%;
 		border-radius: 0px;

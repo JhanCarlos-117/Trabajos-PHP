@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/flexslider.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="tilos.css">
+    <link rel="stylesheet" href="font-awesome.css">
+        <link rel="stylesheet" href="flexslider.css">
     <title>REGISTRO</title>
   </head>
   <body>
@@ -23,28 +23,23 @@
       <button class="btn-primary" type="button" name="button">Enviar</button>
 
       <div class="flexslider">
-  <ul class="slides">
+        <ul class="slides">
+        <li>
+        <img src="Images/HaloRGame2.jpg" height="350" width="200">
+        </li>
 
-    <li>
-    <img src="Images/HaloRGame2.jpg" height="350" width="200">
-  </li>
+        <li>
+        <img src="Images/HaloRGame3.jpg" height="350" width="200">
+        </li>
 
-  <li>
-    <img src="Images/HaloRGame3.jpg" height="350" width="200">
-  </li>
+        <li>
+        <img src="Images/HaloRGame4.jpg" height="350" width="200">
+        </li>
+        </ul>
+      </div>
 
-  <li>
-    <img src="Images/HaloRGame4.jpg" height="350" width="200">
-
-  </li>
-
-  </ul>
-</div>
-
-<script src="js/jquery-3.1.0.min.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/main.js"></script>
-
-      </script>
+      <script src="Js/jquery-3.1.0.min.js"></script>
+      <script src="Js/jquery.flexslider.js"></script>
+      <script src="Js/main.js"></script>
   </body>
 </html>
