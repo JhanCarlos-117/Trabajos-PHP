@@ -16,8 +16,8 @@
 
 body{
 	background: #5f2c82;
-	background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
-    background: linear-gradient(to right, #49a09d, #5f2c82);
+	background: -webkit-linear-gradient(to right, #4c10e0, #12b4f0);
+    background: linear-gradient(to right, #1032e6, #12b4f0);
 
     font-family: 'Open sans';
 }
@@ -27,9 +27,9 @@ body{
 	max-width: 1000px;
 	margin: 50px auto;
   margin-left: 500px;
-  margin-top: -360px;
+  margin-top: -390px;
 
-	border: 3px solid #fff;
+	border: 3px solid rgb(241, 233, 228);
 	border-radius: 8px;
 	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70);
 
@@ -77,7 +77,7 @@ body{
 }
 
 .flex-control-nav li a.flex-active{
-	background: #640be4;
+	background: rgb(20, 48, 233);
 }
 
 .flex-direction-nav{
@@ -87,7 +87,7 @@ body{
 @media screen and (max-width: 770px){
   h1{
     font-size: 20px;
-    text-align: center;   
+    text-align: center;
   }
 	.flex-direction-nav a{
 		opacity: 1;

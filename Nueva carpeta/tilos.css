@@ -4,10 +4,23 @@ h1{
 }
 FORM{
   margin: 60px;
+
 }
 input{
-  margin: 15px;
+  margin: 0 -10px;
 }
 .btn-primary{
-  margin-left: 120px;
+  margin-left: 50px;
+  width: 60px;
+}
+.lbl{
+  font-family: Arial Black;
+  font-size: 20px;
+  margin-left: -8px;
+}
+.sex{
+  margin-left: 20px;
+}
+.m{
+  margin-left: 14px;
 }

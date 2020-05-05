@@ -12,15 +12,20 @@
   <body>
     <h1>REGISTRARSE</h1>
     <FORM ACTION="pagina2.php" METHOD="post">
-      <label for="">Nombres:</label><input type="text" name="nombre"><br>
-      <label for="">Apellidos:</label><input type="text" name="apellidos"><br>
-      <label for="">Edad:</label><input type="text" name="edad"><br>
-      <label for="">Fecha de Nacimiento:</label><input type="date" name="fecha"><br>
-      <label for="">Sexo:</label><input type="radio" name="masculino">M
-      <input type="radio" name="femenino">F
-      <input type="radio" name="otro">Otro <br>
-      <label for="">Nacionalidad:</label><input type="text" name="nacionalidad"><br>
-      <button class="btn-primary" type="button" name="button">Enviar</button>
+      <label class="lbl" for="">Nombres:</label><br>
+      <input type="text" name="nombre"><br>
+      <label class="lbl" for="">Apellidos:</label><br>
+      <input type="text" name="apellidos"><br>
+      <label class="lbl" for="">Edad:</label><br>
+      <input type="text" name="edad"><br>
+      <label class="lbl" for="">Fecha de Nacimiento:</label><br>
+      <input type="date" name="fecha"><br>
+      <label class="lbl" for="">Nacionalidad:</label><br>
+      <input type="text" name="nacionalidad"><br>
+      <label class="lbl" for="">Sexo:</label><input class="sex" type="radio" name="masculino"><label class="m" for="">M</label>
+      <input class="sex" type="radio" name="femenino"><label class="m" for="">F</label>
+      <input class="sex" type="radio" name="otro"><label class="m" for="">Otro</label> <br>
+      <input class="btn-primary" type="submit" name="btn" value="Enviar">
 
       <div class="flexslider">
         <ul class="slides">
